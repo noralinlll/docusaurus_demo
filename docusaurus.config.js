@@ -25,7 +25,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: ({ versionDocsDirPath, docPath }) =>
-            `https://github.com/noralinlll/docusaurus_demo/edit/doc-release/docs/${versionDocsDirPath}/${docPath}`,
+            `https://github.com/noralinlll/docusaurus_demo/edit/doc-release/${versionDocsDirPath}/${docPath}`,
           editLocalizedFiles: false,
           editCurrentVersion: false,
           routeBasePath: "docs",
